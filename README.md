@@ -17,36 +17,36 @@ This project is a comprehensive **inventory management system** designed for Hom
 ## 📂 Project Components  
 
 ### 1. Database Design  
--Conceptual ER Model: Defines entities such asCustomers, Products, Orders, Warehouses, Employees, and Suppliers.  
--Logical & Physical Design: Implementsprimary keys, foreign keys, constraints, indexing, and normalization for optimized performance.  
+- Conceptual ER Model: Defines entities such as Customers, Products, Orders, Warehouses, Employees, and Suppliers.  
+- Logical & Physical Design: Implements primary keys, foreign keys, constraints, indexing, and normalization for optimized performance.  
 
 ### 2. SQL Implementation  
--Database Schema Creation  
--Queries for Data Retrieval & Analysis  
--Triggers for Automated Operations  
--Stored Procedures for Efficient Data Processing  
+- Database Schema Creation  
+- Queries for Data Retrieval & Analysis  
+- Triggers for Automated Operations  
+- Stored Procedures for Efficient Data Processing  
 
 ### 3. Queries & Analysis  
 The following SQL queries were implemented:  
-1.Top-Selling Online Products
-   - Identifies best-selling products for strategic inventory management.  
+1. Top-Selling Online Products 
+   - Identifies best-selling products for strategic inventory management
    
-2.Daily Sales & Percentage Increase
-   - Analyzes daily revenue trends and promotional impact.  
+2. Daily Sales & Percentage Increase 
+   - Analyzes daily revenue trends and promotional impact
    
-3.Product Sentiment Analysis 
-   - Classifies customer reviews asGood, Neutral, or Bad to improve product offerings.  
+3. Product Sentiment Analysis
+   - Classifies customer reviews as Good, Neutral, or Bad to improve product offerings 
 
 ### 4. Triggers  
-1.Inventory Check Before Order Placement  
-   - Ensures product availability before inserting a new order.  
+1. Inventory Check Before Order Placement  
+   - Ensures product availability before inserting a new order
 
-2.Employee Categorization  
-   - Automatically assigns employees to respective categories (e.g., Warehouse, Store) based on job title.  
+2. Employee Categorization  
+   - Automatically assigns employees to respective categories (e.g., Warehouse, Store) based on job title
 
 ### 5. Stored Procedures  
-1.Dynamic Price Update Procedure  
-   - Allows for bulk price adjustments for specific product categories.  
+1. Dynamic Price Update Procedure  
+   - Allows for bulk price adjustments for specific product categories
 <br>
 
 ## 📌 Key Features
