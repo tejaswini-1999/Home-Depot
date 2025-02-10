@@ -2,7 +2,7 @@
 <br>
 
 ## 📌 Overview
-This project is a comprehensive inventory management system designed for Home Depot, a leading home improvement retailer. The system is built to efficiently track products, their quantities, suppliers, sales transactions, and more. The project includes an Entity-Relationship (ER) model, data dictionary, SQL queries, stored procedures, triggers, and other database components to manage the inventory system effectively.
+This project is a comprehensive **inventory management system** designed for Home Depot, a leading home improvement retailer. The system is built to efficiently track products, their quantities, suppliers, sales transactions, and more. The project includes an **Entity-Relationship (ER) model, data dictionary, SQL queries, stored procedures, triggers**, and other database components to manage the inventory system effectively.
 <br><br>
 
 ## 🎯 Objectives
@@ -14,67 +14,75 @@ This project is a comprehensive inventory management system designed for Home De
 - Enable customer and employee management through structured data models.
 <br>
 
-## 📂 Project Components
-<ol>
-<li>Conceptual, Logical & Physical Design</li>
-<ul> 
-  <li>Conceptual ER Model: Defines entities like Customers, Products, Orders, Warehouses, Employees, and Suppliers</li>
-  <li>Logical & Physical Design: Includes table structures with primary keys, foreign keys, constraints, and indexing strategies</li></ul>
-<br>  
-  
-<li>SQL Implementation</li>
-<ul>
-  <li>Database Creation & Schema Definition</li>
-  <li>Queries for Data Retrieval & Analysis</li>
-  <li>Triggers for Automated Operations</li>
-  <li>Stored Procedures for Efficient Data Processing</li></ul>
-<br> 
-  
-<li>Queries & Analysis</li>
-<ul>
-  <li>Top-Selling Online Products: Identifies products with exceptional sales performance to       help Home Depot optimize inventory and fulfillment strategies</li>
-  <li>Daily Sales & Percentage Increase: Tracks sales growth over time to assist in demand       forecasting and promotional planning</li>
-  <li>Product Sentiment Analysis: Classifies customer reviews into Good, Neutral, or Bad to       provide insights into product quality and customer satisfaction</li></ul>
-<br> 
+## 📂 Project Components  
 
-<li>Triggers</li>
-<ul>
-  <li>Inventory Check Before Order Placement: Ensures product availability before inserting a new order</li>
-  <li>Employee Categorization: Automatically assigns employees to their respective categories (e.g., Warehouse, Store) based on job title</li></ul>
-<br> 
+### 1. Database Design  
+-Conceptual ER Model: Defines entities such asCustomers, Products, Orders, Warehouses, Employees, and Suppliers.  
+-Logical & Physical Design: Implementsprimary keys, foreign keys, constraints, indexing, and normalization for optimized performance.  
 
-<li>Stored Procedures</li>
-<ul><li>Dynamic Price Update Procedure: Allows increasing product prices dynamically for a specific category</li></ul></ol>
+### 2. SQL Implementation  
+-Database Schema Creation  
+-Queries for Data Retrieval & Analysis  
+-Triggers for Automated Operations  
+-Stored Procedures for Efficient Data Processing  
+
+### 3. Queries & Analysis  
+The following SQL queries were implemented:  
+1.Top-Selling Online Products
+   - Identifies best-selling products for strategic inventory management.  
+   
+2.Daily Sales & Percentage Increase
+   - Analyzes daily revenue trends and promotional impact.  
+   
+3.Product Sentiment Analysis 
+   - Classifies customer reviews asGood, Neutral, or Bad to improve product offerings.  
+
+### 4. Triggers  
+1.Inventory Check Before Order Placement  
+   - Ensures product availability before inserting a new order.  
+
+2.Employee Categorization  
+   - Automatically assigns employees to respective categories (e.g., Warehouse, Store) based on job title.  
+
+### 5. Stored Procedures  
+1.Dynamic Price Update Procedure  
+   - Allows for bulk price adjustments for specific product categories.  
 <br>
 
 ## 📌 Key Features
-1. Efficient Inventory Tracking: The system allows Home Depot to track product quantities, stock levels, and warehouse capacity in real-time.
-2. Order and Payment Management: Customers can place orders, make payments, and track their order status. The system generates invoices and handles returns and exchanges.
-3. Supplier and Employee Management: The system maintains detailed records of suppliers and employees, ensuring smooth operations.
-4. Promotions and Discounts: The system supports promotional campaigns, allowing customers to avail discounts on eligible products.
-5. Automated Triggers: Triggers are implemented to automate tasks such as updating stock levels, generating invoices, and handling refunds.
-<br><br>
+- Efficient Inventory Tracking: The system allows Home Depot to track product quantities, stock levels, and warehouse capacity in real-time.
+- Order and Payment Management: Customers can place orders, make payments, and track their order status. The system generates invoices and handles returns and exchanges.
+- Supplier and Employee Management: The system maintains detailed records of suppliers and employees, ensuring smooth operations.
+- Promotions and Discounts: The system supports promotional campaigns, allowing customers to avail discounts on eligible products.
+- Automated Triggers: Triggers are implemented to automate tasks such as updating stock levels, generating invoices, and handling refunds.
+<br>
 
 ## 🚀 Technologies Used
-Oracle SQL Developer, Visio, Excel, AWS EC2, C#, ASP.net, Powerpoint
-<br><br>
+- Oracle SQL Developer
+- Visio
+- Excel
+- AWS EC2
+- C#
+- ASP.net
+<br>
+
 
 ## 📜 Key Findings & Business Impact
 - Inventory Optimization: Ensured real-time stock tracking to prevent overstocking or stockouts.
 - Sales Insights: Identified high-performing products, helping in pricing and marketing decisions.
 - Automated Order Processing: Used triggers to streamline inventory checks before order placements.
 - Improved Customer Experience: Sentiment analysis on reviews provided feedback for product improvements.
-<br><br>
+<br>
 
 
 ## 📢 Contributors
-Tejaswini Kshirsagar <br>
-Neha Bharambe <br>
-Minita Joshee
-<br><br>
+- Tejaswini Kshirsagar
+- Neha Bharambe
+- Minita Joshee
+<br>
 
 
 ## 🔗 References
-Home Depot product & sales dataset (Synthetic Data) <br>
-SQL implementation for Enterprise Inventory Management <br>
-ER Modeling & Database Design Principles
+- Home Depot product & sales dataset (Synthetic Data)
+- SQL implementation for Enterprise Inventory Management 
+- ER Modeling & Database Design Principles
