@@ -75,6 +75,6 @@ Minita Joshee
 
 
 ## 🔗 References
-Home Depot product & sales dataset (Synthetic Data)
-SQL implementation for Enterprise Inventory Management
+Home Depot product & sales dataset (Synthetic Data) <br>
+SQL implementation for Enterprise Inventory Management <br>
 ER Modeling & Database Design Principles
